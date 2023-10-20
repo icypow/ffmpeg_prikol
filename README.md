@@ -23,9 +23,12 @@ run:
 
 ### Copy+Paste cmd from testcapture
 From the testacpture file copy command and edit it.
-*-video_size []x[] - setup monitor capture zone
-*-video_size []    - setup framerate
-*-i :0.0 +[]       - setup monitor number (with one display keep as it is) + offset(offset<=mon1+mon2+..+monk)
+
+-video_size []x[] - setup monitor capture zone
+
+-video_size []    - setup framerate
+
+-i :0.0 +[]       - setup monitor number (with one display keep as it is + offset(offset<=mon1+mon2+..+monk)
 
 Run it from src folder!
 
